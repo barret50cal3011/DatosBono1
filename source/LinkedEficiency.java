@@ -3,6 +3,7 @@ import java.util.LinkedList;
 public class LinkedEficiency
 {
     static int DATA_TO_INSERT = 50*1000*1000;
+	// Barret gei, se escribe Delete
     static int DATA_TO_DELIT = 1000;
 
     public static void main(final String[] args)
@@ -40,6 +41,7 @@ public class LinkedEficiency
         finish = System.currentTimeMillis();
         System.out.println("Tiempo para remover " + DATA_TO_DELIT + " del inicio de un LinkedList: " + (finish - start) + "ms");
 
+	    //Por qué putas usas Integer WTF solo usa int nojoda
         Integer primero;
         Integer medio;
         Integer ultimo;
